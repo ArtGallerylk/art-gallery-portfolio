@@ -19,7 +19,12 @@ export default function AdminLayout() {
       {/* Admin Sidebar */}
       <aside className="admin-sidebar">
         <div style={{ marginBottom: '2rem', padding: '0 1rem' }}>
-          <img src="/Logo.png" alt="Art Gallery LK" style={{ height: '40px', objectFit: 'contain', marginBottom: '0.5rem' }} />
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '0.5rem' }}>
+            <img src="/Logo.png" alt="Art Gallery LK Logo" style={{ height: '40px', objectFit: 'contain' }} />
+            <h3 style={{ color: 'var(--color-white)', fontSize: '1.2rem', margin: 0 }}>
+              Art <span style={{ color: 'var(--color-gold)' }}>Gallery</span>
+            </h3>
+          </div>
           <p style={{ color: 'var(--color-gray-500)', fontSize: '0.8rem' }}>
             {user?.email}
           </p>

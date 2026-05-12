@@ -7,7 +7,10 @@ export default function Footer() {
       <div className="container">
         <div className="footer-grid">
           <div className="footer-brand">
-            <img src="/Logo.png" alt="Art Gallery LK" style={{ height: '48px', objectFit: 'contain', marginBottom: '1rem' }} />
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '1rem' }}>
+              <img src="/Logo.png" alt="Art Gallery LK Logo" style={{ height: '48px', objectFit: 'contain' }} />
+              <h3 style={{ margin: 0 }}>Art <span>Gallery</span> LK</h3>
+            </div>
             <p>Studio And Art Designers — Premium photo frames crafted with elegance. Browse our exclusive collection and find the perfect frame for your cherished memories.</p>
           </div>
           <div className="footer-links">

@@ -17,8 +17,9 @@ export default function Header() {
     <>
       <header className="header">
         <div className="header-inner">
-          <Link to="/" className="header-logo">
-            <img src="/Logo.png" alt="Art Gallery LK" style={{ height: '48px', objectFit: 'contain' }} />
+          <Link to="/" className="header-logo" style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+            <img src="/Logo.png" alt="Art Gallery LK Logo" style={{ height: '48px', objectFit: 'contain' }} />
+            <h1>Art <span className="logo-accent">Gallery</span> LK</h1>
           </Link>
 
           <nav className="nav-links">
