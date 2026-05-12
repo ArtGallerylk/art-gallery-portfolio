@@ -5,7 +5,8 @@ export default function Hero() {
     <section className="hero" id="hero">
       <div className="hero-bg"></div>
       <div className="hero-overlay"></div>
-      <div className="hero-content">
+      <div className="hero-content" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+        <img src="/Logo.png" alt="Art Gallery LK Logo" style={{ height: '160px', objectFit: 'contain', marginBottom: '1rem' }} />
         <h1>Exquisite <span>Photo Frames</span> for Every Moment</h1>
         <p className="hero-tagline">Studio And Art Designers — Crafting memories with elegance</p>
         <div className="hero-buttons">
